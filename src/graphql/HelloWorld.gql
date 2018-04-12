@@ -1,0 +1,6 @@
+query HelloWorld ($id: String!) {
+  carro (id: $id){
+    id
+  }
+}
+
